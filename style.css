@@ -1,114 +1,112 @@
-/* Universal Styles */
-
-html{
-  font-size: 16px;
-}
-
+* { margin:0; padding:0; }
 body {
-  background-color: white;
+  background-color: LavenderBlush;
+  margin: 0;
+  padding: 0;
 }
 
-p{
-  min-width: 200px;
-  min-height:200px;
-}
-
-.image-container {
-  overflow: hidden;
-}
-
-.image-container img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Banner Section */
-
-#banner {
-  height: 46rem;
-  background-image: url('camel-background.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-#banner h1 {
-  font-size: 3.75rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  color: white;
-}
-
-/* Blog Post */
-
-#blog {
-  width: 86%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#blog .post {
-  width: 52%;
-  margin-top: 12.5%;
-  margin-bottom: 7.5%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: 'Merriweather', serif;
-  font-weight: 300;
-  font-size: 1rem;
-  text-align: center;
-  line-height: 1.8;
-  color: #444444;
-}
-
-.post h2 {
-  font-size: 1.875rem;
+.navbar {
+  background-color: black;
+  padding: 30px;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  max-height: 75px;
+  min-width: 550px;
   
 }
 
-.post h3 {
-  font-size: 1.125rem;
-  color: #999999;
+.navbar a:link {
+    text-decoration: none;
+	color: #FCA311;
 }
 
-.post .opening-line {
-  margin-top: 4.1875rem;
-  margin-bottom: 1.5rem;
-  color: black;
-  font-weight: bold;
+.navbar a:visited {
+    text-decoration: none;
+	color: #FCA311;
 }
-
-.post .image-container {
-  width: 100%;
-}
-
-/* Blog Images */
-
-.images {
-  margin-bottom: 20%;
-}
-
-.images .image-container {
+li {
+  color: white;
   display: inline-block;
-  width: 50%;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: uppercase;
 }
 
-/* Footer */
-
-footer {
-  padding: 4rem 0;
-  border-top: 1px solid #999999;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.125rem;
-  color: #999999;
+#logo{
+	color: #FCA311;
+  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Amatic SC', cursive;*/
+  font-size: 25px;
+  padding: 0px 50px;
+}
+	
+#header-text {
+  /*background-color: rgba(196, 196, 212, .3);*/
+  margin: 0 auto;
+  position: relative;
   text-align: center;
+  top: 20%;
+  width: 60%;
+}
+#benefits-text {
+  /*background-color: rgba(196, 196, 212, .3);*/
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  padding-top: 35px;
+  width: 60%;
+}
+.header h1{
+	color: PeachPuff;
+	text-shadow: 1px 1px 2px black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 5.4em;
+	font-weight: 300;
+	
+}
+
+.header h2{
+	padding-top: 35px;
+	Color: White;
+	text-shadow: 1px 1px 2px black;
+	font-family: 'Playfair Display', serif;
+	font-size: 2em;
+	font-weight: 300;
+}
+
+
+.header{	
+	background-image: url("education.jpeg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	height: 800px;
+	width: 100%;
+}
+.benefits{
+	width: 100%;
+	
+}
+.benefits h1{
+	color: DarkSlateGray;
+	text-shadow: 1px 1px 2px black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+#contact img{
+	height: 20px;
+	border-radius: 5px;
+	position: relative;
+	top: 5px;
+}
+#contact {
+	float: right;
+	text-transform: lowercase;
+	width: 200px;
+	color: #FCA311;
 }
