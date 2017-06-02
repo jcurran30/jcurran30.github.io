@@ -31,7 +31,7 @@ ul{
 }
 li {
   font-family: 'Abel', sans-serif;
-  font-size: 1em;
+  font-size: 1.56em;
   font-weight: 300;
   padding-right: 1em;
   display: inline;
@@ -128,13 +128,13 @@ li {
 	.contact{
 		float: none;
 		display: block;
-		width: 40%;
+		width: 500px;
 		margin: auto;
 	}
 	.logo{
 		float: none;
 		display: block;
-		width: 40%;
+		width: 500px;
 		margin: auto;
 	}
 	
