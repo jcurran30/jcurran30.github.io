@@ -1,0 +1,141 @@
+* { margin:0; padding:0; }
+body {
+  background-color: LavenderBlush;
+  margin: 0;
+  padding: 0;
+}
+ul{
+	
+	display: inline;
+	margin-right: 3em;
+}
+.navbar {
+  background-color: black;
+  padding: 1.875em;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  max-height: 4.6em;
+  min-width: 30.25em;
+  
+}
+
+.navbar a:link {
+    text-decoration: none;
+	color: #FCA311;
+}
+
+.navbar a:visited {
+    text-decoration: none;
+	color: #FCA311;
+}
+li {
+  font-family: 'Abel', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  padding-right: 1em;
+  display: inline;
+  
+}
+/*.logo .contact{
+	display: inline;
+	width: 25em;
+}*/
+.logo{
+  float: left;
+}
+.logo h1{
+  color: #FCA311;
+  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Amatic SC', cursive;*/
+  font-size: 1.56em;
+  text-transform: uppercase;
+  
+}
+	
+#header-text {
+  /*background-color: rgba(196, 196, 212, .3);*/
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  width: 60%;
+}
+#benefits-text {
+  /*background-color: rgba(196, 196, 212, .3);*/
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  padding-top: 2.175em;
+  width: 60%;
+}
+.header h1{
+	color: PeachPuff;
+	text-shadow: 1px 1px 2px black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 5.4em;
+	font-weight: 300;
+	
+}
+
+.header h2{
+	padding-top: 2.175em;
+	Color: White;
+	text-shadow: 1px 1px 2px black;
+	font-family: 'Playfair Display', serif;
+	font-size: 2em;
+	font-weight: 300;
+}
+
+
+.header{	
+	background-image: url("../education.jpeg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	height: 50em;
+	width: 100%;
+}
+.benefits{
+	width: 100%;
+	
+}
+.benefits h1{
+	color: DarkSlateGray;
+	text-shadow: 1px 1px 2px black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3.125em;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.contact img{
+	height: 1.25em;
+	border-radius: .3125em;
+	position: relative;
+	top: .3125em;
+}
+.contact {
+	float: right;
+	text-transform: lowercase;
+	color: #FCA311;
+}
+@media screen and (max-width: 1200px) {
+   
+   .contact ul{
+	   width: 70%;
+	   margin: auto;
+   }
+	.contact{
+		float: none;
+		display: block;
+		width: 40%;
+		margin: auto;
+	}
+	.logo{
+		float: none;
+		display: block;
+		width: 40%;
+		margin: auto;
+	}
+	
+}
