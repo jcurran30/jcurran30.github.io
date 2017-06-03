@@ -69,10 +69,10 @@ body {
   width: 60%;
   min-width: 550px;
 }
-#benefits-text {
+#body-text {
   margin: 0 auto;
   position: relative;
-  text-align: center;
+  text-align: left;
   padding-top: 2.175em;
   width: 80%;
   max-width: 65rem;
@@ -104,16 +104,26 @@ body {
 	width: 100%;
 }
 .benefits{
-	width: 100%;
-	
+	width: 49%;
+	float: left;
 }
-.benefits h1{
+.akane{
+	width: 49%;
+	float: right;
+	/*border-left-style: solid;*/
+}
+#body-text h1{
 	color: DarkSlateGray;
 	text-shadow: 1px 1px 2px black;
 	font-family: 'Raleway', sans-serif;
 	font-size: 3.125em;
 	font-weight: 300;
 	text-transform: uppercase;
+}
+#body-text img{
+	width: 25%;
+	margin-right: 0.25em;
+	float: left;
 }
 
 @media screen and (max-width: 1200px) {
@@ -132,6 +142,15 @@ body {
 		display: block;
 		width: 550px;
 		margin: auto;
+	}
+	.benefits{
+		width: 100%;
+		float: none;
+        /*border-left-style: solid;*/		
+	}
+	.akane{
+		width: 100%;
+		float: none;
 	}
 	
 }
