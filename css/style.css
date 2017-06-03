@@ -157,18 +157,23 @@ p {
 		margin: auto;
 	}
 	.benefits{
-		width: 70%;
+		width: 80%;
 		float: none;
+		margin: auto;
         /*border-left-style: solid;*/		
 	}
 	.akane{
-		width: 70%;
+		width: 80%;
 		float: none;
+		margin: auto;
 	}
 	.body{
 		height: 100rem;
 	}
 	p{
 		font-size: 1.75rem;
+	}
+	#header-text {
+		width: 80%;
 	}
 }
