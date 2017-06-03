@@ -4,7 +4,15 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.body{
+	background-image: url("../world.gif");
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 30rem;
+	width: 100%;
+}
 .navbar {
   background-color: black;
   padding-top: 1.5em;
@@ -54,7 +62,7 @@ body {
 }
 .contact ul{
 	display: inline;
-	margin-right: 3em;
+	margin-right: 3rem;
 }
 .contact {
 	float: right;
@@ -73,7 +81,7 @@ body {
   margin: 0 auto;
   position: relative;
   text-align: left;
-  padding-top: 2.175em;
+  padding-top: 2em;
   width: 80%;
   max-width: 65rem;
   min-width: 37.5rem 
@@ -96,11 +104,11 @@ body {
 }
 .header{	
 	background-image: url("../education.jpeg");
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
-	height: 40em;
+	height: 40rem;
 	width: 100%;
 }
 .benefits{
@@ -112,17 +120,21 @@ body {
 	float: right;
 	/*border-left-style: solid;*/
 }
+p {
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 0.5rem;
+}
 #body-text h1{
 	color: DarkSlateGray;
 	text-shadow: 1px 1px 2px black;
 	font-family: 'Raleway', sans-serif;
-	font-size: 3.125em;
+	font-size: 2.75em;
 	font-weight: 300;
-	text-transform: uppercase;
+	padding-bottom: 1rem;
 }
 #body-text img{
 	width: 25%;
-	margin-right: 0.25em;
+	margin: 0.5em;
 	float: left;
 }
 
@@ -151,6 +163,9 @@ body {
 	.akane{
 		width: 100%;
 		float: none;
+	}
+	.body{
+		height: 50rem;
 	}
 	
 }
