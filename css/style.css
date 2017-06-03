@@ -147,13 +147,13 @@ p {
    }
 	.contact{
 		float: none;
-		width: 550px;
+		width: 70%;
 		margin: auto;
 	}
 	.logo{
 		float: none;
 		display: block;
-		width: 550px;
+		width: 70%;
 		margin: auto;
 	}
 	.benefits{
